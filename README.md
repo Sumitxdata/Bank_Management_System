@@ -20,6 +20,21 @@ This is a command-line application for a basic bank system that allows users to 
 3. Run the command `python bank_system.py` to start the application.
 4. Follow the on-screen prompts to perform the desired operations.
 
+# Features
+- **connect_to_database():** Establishes a connection to the MySQL database.
+- **new_account():** Adds a new account to the database.
+- **deposit_amount():** Deposits funds into an account.
+- **withdraw_amount():** Withdraws funds from an account.
+- **balance_enquiry():** Displays the balance of an account.
+- **all_account_holder_list():** Lists all account holders.
+- **close_account():** Deletes an account from the database.
+- **modify_account():** Updates account holder details.
+
+# Acknowledgments
+- [MySql Connector](https://dev.mysql.com/doc/connector-python/en/)
+- [Python Documentation](https://docs.python.org/3/)
+
+
 # Demo
 Here's a quick demo of how the application works:
 
@@ -158,6 +173,11 @@ Enter Your Choice >>> 6
 .......Account Deleted Successfully.........
 
 ```
+
+# Contact
+For questions or feedback, feel free to reach out:
+- **Email:** sumitxdata@gmail.com
+- **GitHub:** Sumitxdata
 
 
 
